@@ -22,14 +22,14 @@
             //                                         |  Raise  |    ~    |   GUI   |  Lower  |
 
             bindings = <
-&kp GRV    &kp N1  &kp N2    &kp N3             &kp N4  &kp N5                                &kp N6    &kp N7     &kp N8     &kp N9     &kp N0         &kp BSPC
-&kp TILDE  &kp Q   &kp W     &kp E              &kp R   &kp T                                 &kp Y     &kp U      &kp I      &kp O      &kp P          &kp BSLH
-&kp TAB    &kp A   &kp S     &kp D              &kp F   &kp G                                 &kp H     &kp J      &kp K      &kp L      &mt LGUI SEMI  &kp SQT
-&kp LCTRL  &kp Z   &kp X     &kp C              &kp V   &kp B                                 &kp N     &kp M      &kp COMMA  &kp DOT    &kp FSLH       &kp RALT
-                   &kp LBKT  &kp RIGHT_BRACKET                                                                     &kp MINUS  &kp EQUAL
-                                                &mo 1                                                   &kp ENTER
-                                                        &kp SPACE   &kp N3         &kp RCTRL  &kp RCMD
-                                                        &kp SPACE  &kp BACKSPACE  &kp RALT   &kp N5
+&kp GRAVE          &kp N1  &kp N2    &kp N3             &kp N4  &kp N5                                &kp N6    &kp N7     &kp N8     &kp N9     &kp N0         &kp MINUS
+&kp TAB          &kp Q   &kp W     &kp E              &kp R   &kp T                                 &kp Y     &kp U      &kp I      &kp O      &kp P          &kp EQUAL
+&mt LCTRL ESC    &kp A   &kp S     &kp D              &kp F   &kp G                                 &kp H     &kp J      &kp K      &kp L      &kp SEMI       &kp SQT
+&mt LSHIFT LPAR  &kp Z   &kp X     &kp C              &kp V   &kp B                                 &kp N     &kp M      &kp COMMA  &kp DOT    &kp FSLH       &mt RSHIFT RPAR
+                   &kp LEFT_GUI  &kp K_MUTE                                                             &kp C_VOL_DN  &kp C_VOLUME_UP
+                                                &kp DELETE                                                &kp BACKSPACE
+                                                        &kp C_AL_CALC   &kp HOME         &kp END       &kp SPACE
+                                                        &mt LALT LBKT   &lt 1 PSCRN      &lt 1 ENTER   &mt RALT RBKT
             >;
         };
 
