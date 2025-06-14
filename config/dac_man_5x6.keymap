@@ -28,7 +28,7 @@
 &mt LSHIFT LPAR  &kp Z   &kp X     &kp C              &kp V   &kp B                                 &kp N     &kp M      &kp COMMA  &kp DOT    &kp FSLH       &mt RSHIFT RPAR
                    &kp LEFT_GUI  &kp C_MUTE                                                             &kp C_VOL_DN  &kp C_VOLUME_UP
                                                 &kp DELETE                                                &kp BACKSPACE
-                                                        &kp C_AL_CALC   &kp HOME         &kp END       &kp SPACE
+                                                        &kp C_AL_CALC   &lt 1 HOME       &lt 1 END       &kp SPACE
                                                         &mt LALT LBKT   &lt 1 PSCRN      &lt 1 ENTER   &mt RALT RBKT
             >;
         };
